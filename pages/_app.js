@@ -8,6 +8,7 @@ import '../css/part5.css'
 import '../css/footer.css'
 import '../styles/globals.css'
 import Head from "next/head";
+import Script from 'next/script'
 
 function MyApp({ Component, pageProps }) {
   return( 

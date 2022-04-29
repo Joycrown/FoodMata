@@ -36,19 +36,19 @@ const Part1 = () => {
                                 </div>
                             </div>
                             <div className='d-flex pt-5'>
-                                <select class="form-select" aria-label="Default select example" id='location'>
+                                <select className="form-select" aria-label="Default select example" id='location'>
                                     <option selected>Akure</option>
                                     <option value="1">One</option>
                                     <option value="2">Two</option>
                                     <option value="3">Three</option>
                                 </select>
                                 <div className='wrapper'>
-                                    <form class="ps-5">
+                                    <form className="ps-5">
                                         <div className='search-box'>
-                                            <input class="form-control me-2 inpu" type="search" placeholder="Search food" id='search2' aria-label="Search"/>
+                                            <input className="form-control me-2 inpu" type="search" placeholder="Search food" id='search2' aria-label="Search"/>
                                         </div>
                                         <div className=''>
-                                            <button type="button" class="btn search-btn text-white">Search</button> 
+                                            <button type="button" className="btn search-btn text-white">Search</button> 
                                         </div>
                                     </form>
                                 </div>
@@ -75,7 +75,7 @@ const Part1 = () => {
                 </div>
                 <div className='wrapper-mob'>
                     <div className=''>
-                        <select class="form-select" aria-label="Default select example" id='locationmob'>
+                        <select className="form-select" aria-label="Default select example" id='locationmob'>
                             <option selected>Akure</option>
                             <option value="1">One</option>
                             <option value="2">Two</option>
@@ -83,7 +83,7 @@ const Part1 = () => {
                         </select>
                     </div>
                     <div className='pt-5'>
-                        <button type="button" class="btn search-btn-mob text-white">Search for food</button> 
+                        <button type="button" className="btn search-btn-mob text-white">Search for food</button> 
                     </div>
                 </div>
             </div>

@@ -39,7 +39,7 @@ const Part2 = () => {
                         <div className='col-lg-3 text-center'>
                             <Image src={pay} width={70} height={90} alt='img' ></Image>
                             <h3 className='head2-text-2 text-center'>Pay advanced</h3>
-                            <h3 className='text-center sub-text-2 pt-2'>It's quick, safe, and simple. Select several methods of payment</h3>
+                            <h3 className='text-center sub-text-2 pt-2'>Its quick, safe and simple. Select several methods of payment</h3>
                         </div>
                         <div className='col-lg-3 text-center'>
                             <Image src={meal} width={70} height={90} alt='img' ></Image>
@@ -65,7 +65,7 @@ const Part2 = () => {
                                     <h3 className='price-text'>₦ 1,500</h3>
                                 </div>
                                 <div className='text-center ml-2'>
-                                    <button class="btn add-btn text-white" type="submit">Add To Cart</button>
+                                    <button className="btn add-btn text-white" type="submit">Add To Cart</button>
                                 </div>
                             </div>
                         </div>
@@ -81,7 +81,7 @@ const Part2 = () => {
                                     <h3 className='price-text'>₦ 3,500</h3>
                                 </div>
                                 <div className='text-center ml-2'>
-                                    <button class="btn add-btn text-white" type="submit">Add To Cart</button>
+                                    <button className="btn add-btn text-white" type="submit">Add To Cart</button>
                                 </div>
                             </div>
                         </div>
@@ -97,7 +97,7 @@ const Part2 = () => {
                                     <h3 className='price-text'>₦ 2,000</h3>
                                 </div>
                                 <div className='text-center ml-2'>
-                                    <button class="btn add-btn text-white" type="submit">Add To Cart</button>
+                                    <button className="btn add-btn text-white" type="submit">Add To Cart</button>
                                 </div>
                             </div>
                         </div>
@@ -113,7 +113,7 @@ const Part2 = () => {
                                     <h3 className='price-text'>₦ 2,000</h3>
                                 </div>
                                 <div className='text-center ml-2'>
-                                    <button class="btn add-btn text-white" type="submit">Add To Cart</button>
+                                    <button className="btn add-btn text-white" type="submit">Add To Cart</button>
                                 </div>
                             </div>
                         </div>
@@ -150,7 +150,7 @@ const Part2 = () => {
                             <div className='pt-3'>
                                 <Image src={pay} width={40} height={50} alt='img' ></Image>
                                 <h3 className='head2-text-2-mob'>Pay advanced</h3>
-                                <h3 className='sub-text-2-mob pt-2'>It's quick, safe, and simple. Select several methods of payment.</h3>
+                                <h3 className='sub-text-2-mob pt-2'>Its quick, safe, and simple. Select several methods of payment.</h3>
                             </div>
                         </div>
                         <div className='bd-how col-4'>

@@ -65,9 +65,9 @@ const Part4 = () => {
               <h3 className='head-text-4-mob pt-5'> Trending Offers!!!</h3>
             </div>
             <div className='pt-5'>
-              <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
+              <div id="carouselExampleSlidesOnly" classNmae="carousel slide" data-bs-ride="carousel">
+                <div className="carousel-inner">
+                  <div className="carousel-item active">
                     <div className='d-flex justify-content-center'>
                       <div className='bg-4-1-mob'>
                         <div className=' d-flex justify-content-center pt-3 pb-5'>
@@ -80,7 +80,7 @@ const Part4 = () => {
                       </div>
                     </div>
                   </div>
-                  <div class="carousel-item ">
+                  <div className="carousel-item ">
                     <div className='d-flex justify-content-center'>
                       <div className='bg2-4-1-mob'>
                         <div className=' d-flex justify-content-center pt-3 pb-5'>

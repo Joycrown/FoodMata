@@ -18,7 +18,7 @@ const Part5 = () => {
                     </div>
                     <div className='d-flex justify-content-end'>
                         <div className='view-5'>
-                            <button type="button" class="btn view5-btn text-center text-white">view all</button> 
+                            <button type="button" className="btn view5-btn text-center text-white">view all</button> 
                         </div>
                     </div>
                 </div>
@@ -118,7 +118,7 @@ const Part5 = () => {
                         <h3 className='head-text-5-mob'>Search by Food</h3>
                     </div>
                     <div className=''>
-                        <button type="button" class="btn view5-btn-mob text-center">View all</button> 
+                        <button type="button" className="btn view5-btn-mob text-center">View all</button> 
                     </div>
                 </div>
                 <div className='container text-center pt-5'>
@@ -141,9 +141,9 @@ const Part5 = () => {
                     <h3 className='head2-text-5-mob'>What Our Customer Says?</h3>
                 </div>
                 <div className='pt-5 pb-5'>
-                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
+                    <div id="carouselExampleSlidesOnly" className="carousel slide" data-bs-ride="carousel">
+                        <div className="carousel-inner">
+                            <div className="carousel-item active">
                                 <div className='d-flex justify-content-center'>
                                     <div className='customer-card-mob'>
                                         <div className='d-flex container'>
@@ -161,7 +161,7 @@ const Part5 = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div class="carousel-item ">
+                            <div className="carousel-item ">
                                 <div className='d-flex justify-content-center'>
                                     <div className='customer-card-mob'>
                                         <div className='d-flex container'>
@@ -179,7 +179,7 @@ const Part5 = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div class="carousel-item ">
+                            <div className="carousel-item ">
                                 <div className='d-flex justify-content-center'>
                                     <div className='customer-card-mob'>
                                         <div className='d-flex container'>
@@ -197,7 +197,7 @@ const Part5 = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div class="carousel-item ">
+                            <div className="carousel-item ">
                                 <div className='d-flex justify-content-center'>
                                     <div className='customer-card-mob'>
                                         <div className='d-flex container'>
