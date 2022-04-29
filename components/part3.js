@@ -1,5 +1,5 @@
 import React from 'react'
-import Image from 'next/Image'
+import Image from 'next/image'
 import captain from '../public/img/captain.jpeg'
 import shoprite from '../public/img/shoprite.png'
 import crunchies from '../public/img/crunchies.jpeg'
