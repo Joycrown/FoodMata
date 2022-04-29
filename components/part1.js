@@ -1,5 +1,5 @@
 import React from 'react'
-import Image from 'next/Image'
+import Image from 'next/image'
 import headimage from '../public/img/g10.png'
 import bike from '../public/img/Icon (1).png'
 import restuarant from '../public/img/Vector (6).png'

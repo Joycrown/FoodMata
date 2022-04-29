@@ -1,5 +1,5 @@
 import React from 'react'
-import Image from 'next/Image'
+import Image from 'next/image'
 import ft from '../public/img/FoodMata_Logo_OrangeMata 3.png'
 
 

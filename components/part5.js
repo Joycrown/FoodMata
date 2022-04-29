@@ -1,5 +1,5 @@
 import React from 'react'
-import Image from 'next/Image'
+import Image from 'next/image'
 import img1 from '../public/img/Ellipse 8.png'
 import img2 from '../public/img/Ellipse 9.png'
 import img3 from '../public/img/Ellipse 10.png'

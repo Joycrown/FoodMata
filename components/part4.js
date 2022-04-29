@@ -1,5 +1,5 @@
 import React from 'react'
-import Image from 'next/Image'
+import Image from 'next/image'
 import bike from '../public/img/Group 33848.png'
 import man from '../public/img/Group 33864.png'
 

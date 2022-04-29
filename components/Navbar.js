@@ -2,7 +2,7 @@ import React from 'react'
 import logo from '../public/img/FoodMata_Logo.png'
 import cart from '../public/img/Vector (5).png'
 // import searchIcon from '../public/img/Icon.png'
-import Image from 'next/Image'
+import Image from 'next/image'
 
 
 const Navbar = () => {

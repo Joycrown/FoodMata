@@ -1,4 +1,4 @@
-import Image from 'next/Image'
+import Image from 'next/image'
 import React from 'react'
 import location from '../public/img/Map Marker.png'
 import order from '../public/img/Group 44.png'
