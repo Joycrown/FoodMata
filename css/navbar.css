@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-bg{
+    background-color: white !important;
+}
+
+.nav{
+  padding-left: 5rem !important;
+}
+.nav-link{
+  font-family: 'poppins' !important;
+  font-weight: 500 !important;
+  font-size: 1.2vw !important;
+  color: #424242 !important;
+}
+input#search{
+  background-image: url(../public/img/Icon.png) !important;
+  background-repeat: no-repeat !important;
+  text-indent: 20px!important;
+  padding-left: 2rem !important;
+  width: 120% !important;
+  background-position-x: 1rem !important;
+  background-position-y: 0.7rem !important;
+}
+
+.cart-body{
+  width: 4% !important;
+  height: 5vh !important;
+  background: #FFFFFF !important;
+  border: 1px solid #FFFFFF !important;
+  margin-left: 5rem !important;
+  box-sizing: border-box !important;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.26) !important;
+}
+.get-btn{
+  background: #EE5500 !important;
+  font-family: 'poppins' !important;
+  font-weight: 700 !important;
+  font-size: 1vw !important;
+}
+.mobile{
+  display: none;
+}
+
+
+
+
+@media (max-width: 768px){
+
+}
+
+
+@media (max-width: 576px){
+
+  .desktop{
+    display: none;
+  }
+  .mobile{
+    display: block;
+  }
+  .nav-link-mob{
+    font-family: 'poppins' !important;
+    font-weight: 500 !important;
+    font-size: 2.5vw !important;
+    color: #424242 !important;
+  }
+  input#searchmob{
+    background-image: url(../public/img/Icon.png) !important;
+    background-repeat: no-repeat !important;
+    text-indent: 20px!important;
+    padding-left: 2rem !important;
+    font-size: 2.5vw !important;
+    width: 80% !important;
+    background-position-x: 0.8rem !important;
+    background-position-y: 0.4rem !important;
+  }
+  .get-btn2-mob{
+    background: #EE5500 !important;
+    font-family: 'poppins' !important;
+    font-weight: 500 !important;
+    font-size: 2vw !important;
+  }
+
+}

@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins' !important;
+}
+
+.bg-4{
+    background: rgba(236, 236, 236, 0.7) !important;
+}
+
+.head-text-4{
+    font-family: 'poppins' !important;
+    font-size: 2.5vw !important;
+    font-weight: 600 !important;
+    color: #424242!important;
+}
+
+.bg-4-1{
+    background: #F59763 !important;
+    box-shadow: 0px 20px 70px 5px rgba(245, 151, 99, 0.44) !important;
+    border-radius: 29px !important;
+    height: 40vh !important;
+    width: 110% !important;
+}
+.location-png{
+    background-image: url(../public/img/Icon\ \(2\).png);
+    background-repeat: no-repeat !important;
+    background-position-x: 12rem!important;
+    background-position-y: 2rem !important;
+}
+.bg-4-2{
+    background: #FFFFFF !important;
+    background-repeat: no-repeat !important;
+    border-radius: 11px !important;
+    width: max-content !important;
+   
+}
+.bg-4-2-1{
+    background: #FFFFFF !important;
+    border-radius: 11px !important;
+    width: 60% !important;
+}
+.sub-text-4{
+    font-family: 'poppins' !important;
+    font-size: 1.8vw !important;
+    font-weight: 600 !important;
+    color:  #F59763 !important;
+}
+.sub-text-4-1{
+    font-family: 'poppins' !important;
+    font-size: 1vw !important;
+    font-weight: 400 !important;
+    color:  #717171 !important;
+}
+.sub-text-4-2{
+    font-family: 'poppins' !important;
+    font-size: 1vw !important;
+    font-weight: 500 !important;
+    color:  #424242 !important;
+}
+.sub-text2-4{
+    font-family: 'poppins' !important;
+    font-size: 1.4vw !important;
+    font-weight: 400 !important;
+}
+.bg2-4-1{
+    background: #FFFFFF !important;
+    box-shadow: 0px 20px 70px 5px rgba(245, 151, 99, 0.44) !important;
+    border-radius: 29px !important;
+}
+.sub-text3-4{
+    font-family: 'poppins' !important;
+    font-size: 1.4vw !important;
+    font-weight: 400 !important;
+}
+
+@media (max-width: 768px){
+
+
+
+
+}
+
+
+@media (max-width: 576px){
+    .head-text-4-mob{
+        font-family: 'poppins' !important;
+        font-size: 5vw !important;
+        font-weight: 600 !important;
+        color: #424242!important;
+    }
+
+    .bg-4-1-mob{
+        background: #F59763;
+        box-shadow: 0px 20px 70px 5px rgba(245, 151, 99, 0.44);
+        border-radius: 29px;
+        width: 70% !important;
+        height: 40vh !important;
+    }
+    .bg2-4-1-mob{
+        background:  #FFFFFF !important;
+        box-shadow: 0px 20px 70px 5px rgba(245, 151, 99, 0.44) !important;
+        border-radius: 29px !important;
+        width: 80% !important;
+        height: 40vh !important;
+    }
+    .sub-text-4-mob{
+        font-family: 'poppins' !important;
+        font-size: 5.5vw !important;
+        font-weight: 600 !important;
+        color:  #F59763 !important;
+    }
+    .sub-text-4-1-mob{
+        font-family: 'poppins' !important;
+        font-size: 3.5vw !important;
+        font-weight: 400 !important;
+        color:  #717171 !important;
+    }
+    .sub-text-4-2-mob{
+        font-family: 'poppins' !important;
+        font-size: 3.5vw !important;
+        font-weight: 500 !important;
+        color:  #424242 !important;
+    }
+    .sub2-text-4-mob{
+        font-family: 'poppins' !important;
+        font-size: 5vw !important;
+        font-weight: 500 !important;
+    }
+    .bg-4-2-mob{
+        background: #FFFFFF !important;
+        background-repeat: no-repeat !important;
+        border-radius: 11px !important;
+        width: 50% !important;
+    }
+    .bg2-4-2-mob{
+        background-image: url(../public/img/Ellipse\ 24.png);
+        background-repeat: no-repeat !important;
+        /* background-size: 110% !important; */
+        height: 40vh !important;
+        width: 70% !important;
+        background-position-x: center !important;
+        background-position-y: -1rem !important;
+    }
+
+
+
+}

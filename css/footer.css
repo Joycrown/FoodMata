@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,900;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato' !important;
+}
+
+
+
+.footer-bg{
+    background: #F8FAF9 !important;
+    
+}
+
+
+.ft-text{
+    font-family: 'Lato' !important;
+    font-size: 0.9vw !important;
+    font-weight: 400 !important;
+    color: #9A9EA6 !important;
+}
+.ft2-text{
+    font-family: 'Lato' !important;
+    font-size: 1.3vw !important;
+    font-weight: 500 !important;
+}
+.ft2-sub-text{
+    font-family: 'Lato' !important;
+    font-size: 1.1vw !important;
+    font-weight: 400 !important;
+    color: #4A5768 !important;
+}
+
+
+
+@media (max-width: 768px){
+
+
+
+
+}
+
+
+@media (max-width: 576px){
+
+    .ft-text-mob{
+        font-family: 'Lato' !important;
+        font-size: 2.7vw !important;
+        font-weight: 400 !important;
+        color: #9A9EA6 !important;
+    }
+
+    .ft2-text-mob{
+        font-family: 'Lato' !important;
+        font-size: 3.5vw !important;
+        font-weight: 500 !important;
+    }
+    .ft2-sub-text-mob{
+        font-family: 'Lato' !important;
+        font-size: 2.8vw !important;
+        font-weight: 400 !important;
+        color: #4A5768 !important;
+    }
+}

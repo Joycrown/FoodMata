@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.head-text-2{
+    font-family: 'poppins' !important;
+    font-size: 2.5vw !important;
+    font-weight: 700 !important;
+    color:  #EE5500 !important;
+}
+.bd-2{
+    margin-left: 4rem !important;
+    width: 90% !important;
+}
+.head2-text-2{
+    font-family: 'poppins' !important;
+    font-size: 1.7vw !important;
+    font-weight: 600 !important;
+    color: #424242!important;
+    /* margin-right: 2rem !important; */
+}
+.sub-text-2{
+    font-family: 'poppins' !important;
+    font-size: 1.1vw !important;
+    font-weight: 400 !important;
+    color: #424242!important;
+}
+.head-text2-2{
+    font-family: 'poppins' !important;
+    font-size: 2.5vw !important;
+    font-weight: 700 !important;
+    color:  #424242!important;
+}
+.dish{
+    background: #FFFFFF !important;
+    box-shadow: 0px 30px 65px rgba(0, 0, 0, 0.03) !important;
+    border-radius: 15px !important;
+    width: auto !important;
+}
+.dish-text{
+    font-family: 'poppins' !important;
+    font-size: 2vw !important;
+    font-weight: 700 !important;
+    color:  #424242!important;
+}
+.dish-sub-text{
+    font-family: 'poppins' !important;
+    font-size: 1vw !important;
+    font-weight: 500 !important;
+    color:  #424242!important;
+}
+.price-text{
+    font-family: 'poppins' !important;
+    font-size: 1.6vw !important;
+    font-weight: 600 !important;
+}
+.add-btn{
+    background: rgba(238, 85, 0, 0.7) !important;
+    font-family: 'poppins' !important;
+    font-weight: 600 !important;
+    font-size: 1vw !important;
+    border-radius: 15px !important;
+    /* width: 120% !important;
+    height: 7vh !important; */
+  }
+
+
+@media (max-width: 768px){
+
+}
+
+
+@media (max-width: 576px){
+
+
+    .head-text-2-mob{
+        font-family: 'poppins' !important;
+        font-size: 6.5vw !important;
+        font-weight: 700 !important;
+        color:  #EE5500 !important;
+    }
+    .head2-text-2-mob{
+        font-family: 'poppins' !important;
+        font-size: 3.9vw !important;
+        font-weight: 600 !important;
+        color: #424242!important;
+    }
+    .sub-text-2-mob{
+        font-family: 'poppins' !important;
+        font-size: 2.8vw !important;
+        font-weight: 400 !important;
+        color: #424242!important;
+    }
+    .bd-how{
+        background: #FFFFFF !important;
+        box-shadow: 0px 15px 50px rgba(0, 0, 0, 0.05) !important;
+        border-radius: 6px !important;
+        width: 40% !important;
+        height: 30vh !important;
+    }
+    .bg-2-mobile{
+        background: #FEFAF7 !important;
+    }
+
+
+}
