@@ -110,7 +110,6 @@ input#search2{
         font-size: 6vw !important;
         font-weight: 700 !important;
         color: orangered !important;
-        padding-top: 1.5rem !important;
     }
     .sub-head-1-mob{
         font-family: 'poppins' !important;
@@ -122,6 +121,7 @@ input#search2{
         display: inline-block !important;
         position: relative !important;
         width: 70% !important;
+        height: 5vh !important;
     }
     #locationmob{
         width: 100% !important;
@@ -142,6 +142,9 @@ input#search2{
         position: absolute !important;
         top: 0 !important;
         right: 0 !important;
+    }
+    .body1-mob{
+        background-color:  #ECECEC !important;
     }
     
 }

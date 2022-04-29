@@ -64,6 +64,7 @@ input#search{
   }
   .mobile{
     display: block;
+    width: 98% !important;
   }
   .nav-link-mob{
     font-family: 'poppins' !important;

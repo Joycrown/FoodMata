@@ -84,20 +84,20 @@ const Part3 = () => {
                 <div className=''>
                     <h2 className='head-text-3-mob pt-5 pb-5'>Featured Restuarants</h2>     
                 </div>
-                <div className='container mb-5'>
+                <div className='d-flex justify-content-center'>
                     <div className='row justify-content-evenly'>
                         <div className='col-4'>
                             <div className='bg-3-mobile'>
                                 <div className=''>
                                     <div className='text-center'>
                                         <Image src={captain} width={90} height={60} alt='' ></Image>
-                                        <Image src ={fried} width={1000} height={1000} alt='' className='second-image-mob '></Image>
+                                        <Image src ={fried} width={1000} height={1000} alt='' className='second-image-mob pt-2'></Image>
                                     </div>
                                     <div className='d-flex justify-content-center ps-2 pt-5'>
                                         <h3 className='image-text-mob pt-3 ps-5'>100</h3>
                                     </div>
                                     <div className='text-center button-mob'>
-                                        <button className='open-mob text-center pt-2' type='button'>Open Now</button>
+                                        <button className='open-mob text-center' type='button'>Open Now</button>
                                     </div>
                                 </div>
                             </div>
@@ -107,20 +107,20 @@ const Part3 = () => {
                                 <div className=''>
                                     <div className='text-center'>
                                         <Image src={crunchies} width={100} height={110} alt='' ></Image>
-                                        <Image src ={spag} width={1600} height={1600} alt='' className='second-image-mob button-mob'></Image>
+                                        <Image src ={spag} width={1600} height={1600} alt='' className='second-image-mob button-mob pt-3'></Image>
                                     </div>
                                     <div className='d-flex justify-content-center ps-2 pt-4'>
                                         <h3 className='image-text-mob pt-3 ps-5'>50</h3>
                                     </div>
                                     <div className='text-center button-mob'>
-                                        <button className='open-mob text-center pt-2' type='button'>Open Now</button>
+                                        <button className='open-mob text-center' type='button'>Open Now</button>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div className='container pt-5'>
+                <div className='container pt-5 pb-3'>
                     <div className='row justify-content-evenly'>
                         <div className='col-4'>
                             <div className='bg-3-mobile'>
@@ -129,11 +129,11 @@ const Part3 = () => {
                                         <Image src={tantalizer} width={90} height={60} alt='' ></Image>
                                         <Image src ={ice} width={1000} height={1000} alt='' className='second-image-mob '></Image>
                                     </div>
-                                    <div className='d-flex justify-content-center ps-2 pt-5'>
+                                    <div className='d-flex justify-content-center ps-2 mt-2 pt-5'>
                                         <h3 className='image-text-mob pt-3 ps-5'>30</h3>
                                     </div>
                                     <div className='text-center button-mob'>
-                                        <button className='open-mob text-center pt-2' type='button'>Open Now</button>
+                                        <button className='open-mob text-center' type='button'>Open Now</button>
                                     </div>
                                 </div>
                             </div>
@@ -142,14 +142,14 @@ const Part3 = () => {
                             <div className='bg-3-mobile'>
                                 <div className=''>
                                     <div className='text-center pb-5 mb-4'>
-                                        <Image src={shoprite} width={100} height={100} alt='' ></Image>
+                                        <Image src={shoprite} width={90} height={90} alt='' ></Image>
                                         <Image src ={french} width={50} height={50} alt='' className='second-image-mo'></Image>
                                     </div>
                                     <div className='d-flex justify-content-center ps-2 pt-4'>
                                         <h3 className='image-text-mob pt-3 ps-5'>50</h3>
                                     </div>
                                     <div className='text-center button-mob pt-1'>
-                                        <button className='open-mob text-center pt-2' type='button'>Open Now</button>
+                                        <button className='open-mob text-center' type='button'>Open Now</button>
                                     </div>
                                 </div>
                             </div>

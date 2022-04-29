@@ -62,9 +62,9 @@ const Part4 = () => {
         <div className='text-center'>
           <div className='bg-4'>
             <div className=''>
-              <h3 className='head-text-4-mob pt-5'> Trending Offers!!!</h3>
+              <h3 className='head-text-4-mob pt-3'> Trending Offers!!!</h3>
             </div>
-            <div className='pt-5'>
+            <div className='pt-2 pb-4'>
               <div id="carouselExampleSlidesOnly" classNmae="carousel slide" data-bs-ride="carousel">
                 <div className="carousel-inner">
                   <div className="carousel-item active">

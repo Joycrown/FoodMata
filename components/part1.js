@@ -6,8 +6,8 @@ import restuarant from '../public/img/Vector (6).png'
 
 const Part1 = () => {
   return (
-    <div className='body1'>
-        <div className='desktop'>
+    <div className=''>
+        <div className='body1 desktop'>
             <div className='d-flex justify-content-around'>
                 <div className='pt-5'>
                     <div className=''>
@@ -63,27 +63,29 @@ const Part1 = () => {
         </div>
         
         {/* MOBILE */}
-        <div className='mobile'>
+        <div className='body1-mob mobile'>
             <div className='text-center'>
                 <div className='pt-5'>
                     <Image src={headimage} alt='' width={250} height={260} className = ''></Image>
                 </div>
-                <div className='pb-5'>
+                <div className='pt-4'>
                     <h3 className='text-orange head-text-1-mob'>Are you starving<br/> and desire a good treat?</h3>
                     <h3 className='sub-head-1-mob pt-4'>Within a few clicks, find meals that are accesible near you.</h3>
                     <h3 className='sub-head-1-mob pt-2'>Search for your favorite food or restuarants in your area.</h3>
                 </div>
-                <div className='wrapper-mob'>
-                    <div className=''>
-                        <select className="form-select" aria-label="Default select example" id='locationmob'>
-                            <option selected>Akure</option>
-                            <option value="1">One</option>
-                            <option value="2">Two</option>
-                            <option value="3">Three</option>
-                        </select>
-                    </div>
-                    <div className='pt-5'>
-                        <button type="button" className="btn search-btn-mob text-white">Search for food</button> 
+                <div className='pt-5 pb-5'>
+                    <div className='wrapper-mob'>
+                        <div className=''>
+                            <select className="form-select" aria-label="Default select example" id='locationmob'>
+                                <option selected>Akure</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+                        </div>
+                        <div className='pt-5'>
+                            <button type="button" className="btn search-btn-mob text-white">Search for food</button> 
+                        </div>
                     </div>
                 </div>
             </div>

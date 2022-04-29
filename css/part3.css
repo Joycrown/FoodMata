@@ -120,17 +120,15 @@
         filter: drop-shadow(0px 30px 65px rgba(0, 0, 0, 0.03)) !important;
         border-radius: 15px !important;
     }
-    .bg-3-mobile{
+    /* .bg-3-mobile{
         background: #FEFAF7 !important;
-    }
+        width: 160% !important;
+    } */
 
     .image-text-mob{
         background-image: url('../public/img/Vector\ \(8\).png');
         background-repeat: no-repeat !important;
-        /* background-position-x: 1rem !important; */
-        /* background-size: 40% !important; */
         background-position-y: 0.9rem !important;
-        /* text-indent: 70px !important; */
         font-family: 'poppins' !important;
         font-size: 4.5vw !important;
         font-weight: 600 !important;

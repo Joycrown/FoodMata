@@ -128,17 +128,17 @@ const Part2 = () => {
                 <h3 className='head-text-2-mob pt-4 pb-5'>How it Works</h3>
             </div>
             <div className=''>
-                <div className=''>
-                    <div className='row justify-content-around text-center'>
+                <div className='text-center'>
+                    <div className='row d-flex justify-content-around text-center'>
                         <div className='bd-how col-4'>
-                            <div className='pt-3'>
+                            <div className='pt-3 pb-3'>
                                 <Image src={location} width={40} height={50} alt='img' ></Image>
                                 <h3 className='head2-text-2-mob'>Select location</h3>
                                 <h3 className='sub-text-2-mob pt-2'>Choose the location where your food will be delivered.</h3>
                             </div>
                         </div>
                         <div className='bd-how col-4'>
-                            <div className='pt-3'>
+                            <div className='pt-3 pb-3'>
                                 <Image src={order} width={40} height={50} alt='img' ></Image>
                                 <h3 className='head2-text-2-mob text-center'>Choose order</h3>
                                 <h3 className='text-center sub-text-2-mob pt-2'>Check over hundreds of menus to pick your favorite food</h3>
@@ -147,14 +147,14 @@ const Part2 = () => {
                     </div>
                     <div className='row justify-content-around text-center pt-5'>
                         <div className='bd-how col-4'>
-                            <div className='pt-3'>
+                            <div className='pt-3 pb-3'>
                                 <Image src={pay} width={40} height={50} alt='img' ></Image>
                                 <h3 className='head2-text-2-mob'>Pay advanced</h3>
                                 <h3 className='sub-text-2-mob pt-2'>Its quick, safe, and simple. Select several methods of payment.</h3>
                             </div>
                         </div>
                         <div className='bd-how col-4'>
-                            <div className='pt-3'>
+                            <div className='pt-3 pb-3'>
                                 <Image src={meal} width={40} height={50} alt='img' ></Image>
                                 <h3 className='head2-text-2-mob text-center'>Enjoy meals</h3>
                                 <h3 className='text-center sub-text-2-mob pt-2'>Food is made and delivered directly to your home.</h3>
