@@ -125,9 +125,9 @@ const Part2 = () => {
         </div>
         <div className='bg-2-mobile mobile'>
             <div className='text-center'>
-                <h3 className='head-text-2-mob pt-4 pb-5'>How it Works</h3>
+                <h3 className='head-text-2-mob pt-4 pb-3'>How it Works</h3>
             </div>
-            <div className=''>
+            <div className='pb-3'>
                 <div className='text-center'>
                     <div className='row d-flex justify-content-around text-center'>
                         <div className='bd-how col-4'>

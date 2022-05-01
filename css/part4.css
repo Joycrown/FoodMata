@@ -96,14 +96,14 @@
 
     .bg-4-1-mob{
         background: #F59763;
-        box-shadow: 0px 20px 70px 5px rgba(245, 151, 99, 0.44);
+        /* box-shadow: 0px 20px 70px 5px rgba(245, 151, 99, 0.44); */
         border-radius: 29px;
         width: 70% !important;
         height: 40vh !important;
     }
     .bg2-4-1-mob{
         background:  #FFFFFF !important;
-        box-shadow: 0px 20px 70px 5px rgba(245, 151, 99, 0.44) !important;
+        /* box-shadow: 0px 20px 70px 5px rgba(245, 151, 99, 0.44) !important; */
         border-radius: 29px !important;
         width: 80% !important;
         height: 40vh !important;

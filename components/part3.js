@@ -148,7 +148,7 @@ const Part3 = () => {
                                     <div className='d-flex justify-content-center ps-2 pt-4'>
                                         <h3 className='image-text-mob pt-3 ps-5'>50</h3>
                                     </div>
-                                    <div className='text-center button-mob pt-1'>
+                                    <div className='text-center button-mob '>
                                         <button className='open-mob text-center' type='button'>Open Now</button>
                                     </div>
                                 </div>
